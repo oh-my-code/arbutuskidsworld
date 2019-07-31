@@ -4,7 +4,6 @@ html {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  /* min-width: 960px; */
   max-width: 1280px;
 }
 h2 {
@@ -58,6 +57,9 @@ hr.light {
 
 
 
+
+
+
 .page-section {
   padding: 3rem 0 0.5rem 0;
 }
@@ -68,10 +70,10 @@ hr.light {
   background-color: #fff;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+  
 }
 
 #mainNav .navbar-brand {
-  /* font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 700;
   color: #212529;
 }
@@ -165,22 +167,13 @@ header.masthead h1 {
   }
 }
 
-/* @media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 3.5rem;
-  }
-} */
 
-#about {
-  /* background-color: #29456D; */
-}
+
 
 .heroimage {
   width:100%;
   height:100%;
-  padding-top: 90px;
-
-
+  padding-top: 10px;
 }
 .heroimage img, .border-image img{
   border-radius: 10px;
@@ -253,7 +246,7 @@ header.masthead h1 {
   align-items: center;
   justify-content: space-between;
   padding-left: 50px;
-  margin-top: 90px;
+  margin-top: 10px;
   min-height: 200px;
   background-image: linear-gradient(45deg, #375E9C, #57D9F6);
   border-radius: 10px;
@@ -268,7 +261,7 @@ header.masthead h1 {
   align-items: center;
   justify-content: space-between;
   padding-left: 50px;
-  margin-top: 90px;
+  margin-top: 10px;
   min-height: 200px;
   background-image: linear-gradient(45deg, #375E9C, #57D9F6);
   border-radius: 10px;
@@ -302,7 +295,7 @@ header.masthead h1 {
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    margin-top: 90px;
+    margin-top: 10px;
     min-height: 200px;
     background-image: linear-gradient(45deg, #FF037F, #F79907);
     border-radius: 10px;
@@ -310,14 +303,13 @@ header.masthead h1 {
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
   }
   }
-  
   @media (max-width: 1280px){
   .prog-title2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 50px;
-    margin-top: 90px;
+    margin-top: 10px;
     min-height: 200px;
     background-image: linear-gradient(45deg, #FF037F, #F79907);
     border-radius: 10px;
@@ -343,6 +335,8 @@ header.masthead h1 {
         text-align: center;
     }
   }
+
+
 
 
 
