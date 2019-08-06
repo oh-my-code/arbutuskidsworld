@@ -234,7 +234,7 @@ header h5, hr {
     border-radius: 10px;
     color: #FFFFFF;
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2); 
-  
+    
   }
   .centered-left {
       position: absolute;
@@ -243,6 +243,10 @@ header h5, hr {
       transform: translate(-50%, -50%);
       text-align: center;
   }
+  .centered-left h2, h3 {
+      font-size: 1rem;
+  }
+
 }
 
 /* prog2 */

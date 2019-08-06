@@ -2556,7 +2556,7 @@ textarea.form-control {
   font-weight: 400;
   color: #212529;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
